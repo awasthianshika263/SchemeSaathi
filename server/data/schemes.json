@@ -1,0 +1,427 @@
+[
+  {
+    "id": 1,
+    "name": "PM Awas Yojana (Gramin)",
+    "category": "Housing",
+    "description": "Financial assistance to rural poor for construction of pucca houses",
+    "benefit": "₹1.20 lakh to ₹1.30 lakh",
+    "eligibility": {
+      "maxIncome": 200000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 100,
+      "gender": "any",
+      "occupations": ["farmer", "unemployed", "selfemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "BPL Card", "Bank Passbook", "Income Certificate"],
+    "applyLink": "https://pmayg.nic.in"
+  },
+  {
+    "id": 2,
+    "name": "PM Awas Yojana (Urban)",
+    "category": "Housing",
+    "description": "Housing for all in urban areas — subsidy on home loans",
+    "benefit": "₹1.5 lakh to ₹2.67 lakh subsidy",
+    "eligibility": {
+      "maxIncome": 1800000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 100,
+      "gender": "any",
+      "occupations": ["salaried", "selfemployed", "unemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "Income Certificate", "Bank Passbook", "Property Documents"],
+    "applyLink": "https://pmaymis.gov.in"
+  },
+  {
+    "id": 3,
+    "name": "PM Scholarship Scheme",
+    "category": "Education",
+    "description": "Scholarship for children of ex-servicemen for higher education",
+    "benefit": "₹2500/month (boys), ₹3000/month (girls)",
+    "eligibility": {
+      "maxIncome": 600000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 17,
+      "maxAge": 25,
+      "gender": "any",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "12th Mark Sheet", "Ex-Serviceman Certificate", "Bank Passbook"],
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": 4,
+    "name": "NSP Post Matric Scholarship (SC Students)",
+    "category": "Education",
+    "description": "Financial support for SC students pursuing post matric education",
+    "benefit": "₹1200 to ₹9900 per month",
+    "eligibility": {
+      "maxIncome": 250000,
+      "categories": ["SC"],
+      "minAge": 15,
+      "maxAge": 30,
+      "gender": "any",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "Caste Certificate", "Income Certificate", "Mark Sheet", "Bank Passbook"],
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": 5,
+    "name": "NSP Post Matric Scholarship (OBC Students)",
+    "category": "Education",
+    "description": "Financial support for OBC students pursuing post matric education",
+    "benefit": "₹300 to ₹1000 per month",
+    "eligibility": {
+      "maxIncome": 100000,
+      "categories": ["OBC"],
+      "minAge": 15,
+      "maxAge": 30,
+      "gender": "any",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "OBC Certificate", "Income Certificate", "Mark Sheet", "Bank Passbook"],
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": 6,
+    "name": "NSP Pre Matric Scholarship (ST Students)",
+    "category": "Education",
+    "description": "Scholarship for ST students studying in class 9th and 10th",
+    "benefit": "₹150 to ₹350 per month + ad-hoc grant",
+    "eligibility": {
+      "maxIncome": 250000,
+      "categories": ["ST"],
+      "minAge": 13,
+      "maxAge": 18,
+      "gender": "any",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "Tribe Certificate", "Income Certificate", "Mark Sheet"],
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": 7,
+    "name": "Central Sector Scholarship (College Students)",
+    "category": "Education",
+    "description": "Scholarship for meritorious students from low income families for college education",
+    "benefit": "₹10000 to ₹20000 per year",
+    "eligibility": {
+      "maxIncome": 450000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 17,
+      "maxAge": 25,
+      "gender": "any",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "12th Mark Sheet", "Income Certificate", "College Admission Proof", "Bank Passbook"],
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": 8,
+    "name": "Begum Hazrat Mahal Scholarship (Minority Girls)",
+    "category": "Education",
+    "description": "Scholarship for minority community girls studying in class 9th to 12th",
+    "benefit": "₹5000 to ₹6000 per year",
+    "eligibility": {
+      "maxIncome": 200000,
+      "categories": ["OBC", "General"],
+      "minAge": 13,
+      "maxAge": 20,
+      "gender": "female",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "Minority Certificate", "Income Certificate", "Mark Sheet", "Bank Passbook"],
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": 9,
+    "name": "Sukanya Samriddhi Yojana",
+    "category": "Finance",
+    "description": "Savings scheme for girl child with high interest rate and tax benefits",
+    "benefit": "8.2% interest rate + tax benefits under 80C",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 0,
+      "maxAge": 10,
+      "gender": "female",
+      "occupations": ["student", "unemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "Birth Certificate", "Parent ID Proof"],
+    "applyLink": "https://www.indiapost.gov.in"
+  },
+  {
+    "id": 10,
+    "name": "PM Ujjwala Yojana",
+    "category": "Welfare",
+    "description": "Free LPG connection to women from BPL households",
+    "benefit": "Free LPG connection + first refill free",
+    "eligibility": {
+      "maxIncome": 100000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 100,
+      "gender": "female",
+      "occupations": ["farmer", "unemployed", "selfemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "BPL Card", "Bank Passbook", "Passport Photo"],
+    "applyLink": "https://pmuy.gov.in"
+  },
+  {
+    "id": 11,
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Agriculture",
+    "description": "Credit facility for farmers to meet agricultural needs at low interest",
+    "benefit": "Credit up to ₹3 lakh at 4% interest rate",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 75,
+      "gender": "any",
+      "occupations": ["farmer"]
+    },
+    "documents": ["Aadhar Card", "Land Records", "Bank Account", "Passport Photo"],
+    "applyLink": "https://www.nabard.org"
+  },
+  {
+    "id": 12,
+    "name": "PM Kisan Samman Nidhi",
+    "category": "Agriculture",
+    "description": "Direct income support to farmer families across India",
+    "benefit": "₹6000 per year (₹2000 every 4 months)",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 100,
+      "gender": "any",
+      "occupations": ["farmer"]
+    },
+    "documents": ["Aadhar Card", "Land Records", "Bank Passbook"],
+    "applyLink": "https://pmkisan.gov.in"
+  },
+  {
+    "id": 13,
+    "name": "PM Fasal Bima Yojana",
+    "category": "Agriculture",
+    "description": "Crop insurance scheme to protect farmers from natural calamities",
+    "benefit": "Up to full crop loss coverage at minimal premium",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 100,
+      "gender": "any",
+      "occupations": ["farmer"]
+    },
+    "documents": ["Aadhar Card", "Land Records", "Bank Passbook", "Crop Details"],
+    "applyLink": "https://pmfby.gov.in"
+  },
+  {
+    "id": 14,
+    "name": "Ayushman Bharat PM-JAY",
+    "category": "Health",
+    "description": "Health insurance coverage for poor and vulnerable families",
+    "benefit": "₹5 lakh health coverage per family per year",
+    "eligibility": {
+      "maxIncome": 200000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 0,
+      "maxAge": 100,
+      "gender": "any",
+      "occupations": ["farmer", "unemployed", "selfemployed", "other", "salaried"]
+    },
+    "documents": ["Aadhar Card", "Ration Card", "Income Certificate"],
+    "applyLink": "https://pmjay.gov.in"
+  },
+  {
+    "id": 15,
+    "name": "Janani Suraksha Yojana",
+    "category": "Health",
+    "description": "Cash assistance to pregnant women for institutional delivery",
+    "benefit": "₹1400 (rural) to ₹1000 (urban) per delivery",
+    "eligibility": {
+      "maxIncome": 200000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 45,
+      "gender": "female",
+      "occupations": ["farmer", "unemployed", "selfemployed", "other", "salaried"]
+    },
+    "documents": ["Aadhar Card", "BPL Card", "MCH Card", "Bank Passbook"],
+    "applyLink": "https://nhm.gov.in"
+  },
+  {
+    "id": 16,
+    "name": "PM Mudra Yojana",
+    "category": "Business",
+    "description": "Loans for small and micro enterprises without collateral",
+    "benefit": "Loan up to ₹10 lakh (Shishu/Kishor/Tarun categories)",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 65,
+      "gender": "any",
+      "occupations": ["selfemployed", "unemployed"]
+    },
+    "documents": ["Aadhar Card", "PAN Card", "Business Plan", "Bank Statement"],
+    "applyLink": "https://www.mudra.org.in"
+  },
+  {
+    "id": 17,
+    "name": "Stand Up India Scheme",
+    "category": "Business",
+    "description": "Bank loans for SC/ST and women entrepreneurs to set up greenfield enterprises",
+    "benefit": "Loan from ₹10 lakh to ₹1 crore",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST"],
+      "minAge": 18,
+      "maxAge": 65,
+      "gender": "any",
+      "occupations": ["selfemployed", "unemployed"]
+    },
+    "documents": ["Aadhar Card", "PAN Card", "Caste Certificate", "Business Plan", "Bank Statement"],
+    "applyLink": "https://www.standupmitra.in"
+  },
+  {
+    "id": 18,
+    "name": "PM SVANidhi Scheme",
+    "category": "Business",
+    "description": "Micro credit for street vendors to restart livelihoods",
+    "benefit": "Loan up to ₹50000 at subsidized interest",
+    "eligibility": {
+      "maxIncome": 200000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 65,
+      "gender": "any",
+      "occupations": ["selfemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "Vending Certificate", "Bank Passbook"],
+    "applyLink": "https://pmsvanidhi.mohua.gov.in"
+  },
+  {
+    "id": 19,
+    "name": "National Family Benefit Scheme",
+    "category": "Welfare",
+    "description": "One-time financial assistance to BPL families on death of primary breadwinner",
+    "benefit": "₹20000 one-time payment",
+    "eligibility": {
+      "maxIncome": 150000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 100,
+      "gender": "any",
+      "occupations": ["farmer", "unemployed", "selfemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "BPL Card", "Death Certificate", "Bank Passbook"],
+    "applyLink": "https://nsap.nic.in"
+  },
+  {
+    "id": 20,
+    "name": "PM Matru Vandana Yojana",
+    "category": "Welfare",
+    "description": "Maternity benefit for first live birth to compensate wage loss",
+    "benefit": "₹5000 in three installments",
+    "eligibility": {
+      "maxIncome": 200000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 19,
+      "maxAge": 45,
+      "gender": "female",
+      "occupations": ["farmer", "unemployed", "selfemployed", "other", "salaried"]
+    },
+    "documents": ["Aadhar Card", "MCP Card", "Bank Passbook", "Ration Card"],
+    "applyLink": "https://wcd.nic.in"
+  },
+  {
+    "id": 21,
+    "name": "Atal Pension Yojana",
+    "category": "Finance",
+    "description": "Pension scheme for unorganized sector workers",
+    "benefit": "₹1000 to ₹5000 monthly pension after age 60",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 40,
+      "gender": "any",
+      "occupations": ["farmer", "selfemployed", "unemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "Bank Account", "Mobile Number"],
+    "applyLink": "https://npscra.nsdl.co.in"
+  },
+  {
+    "id": 22,
+    "name": "PM Jeevan Jyoti Bima Yojana",
+    "category": "Finance",
+    "description": "Life insurance cover for death due to any reason",
+    "benefit": "₹2 lakh life cover at just ₹436/year",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 50,
+      "gender": "any",
+      "occupations": ["farmer", "salaried", "selfemployed", "unemployed", "other"]
+    },
+    "documents": ["Aadhar Card", "Bank Account", "Mobile Number"],
+    "applyLink": "https://jansuraksha.gov.in"
+  },
+  {
+    "id": 23,
+    "name": "PM Suraksha Bima Yojana",
+    "category": "Finance",
+    "description": "Accidental death and disability insurance cover",
+    "benefit": "₹2 lakh accidental cover at just ₹20/year",
+    "eligibility": {
+      "maxIncome": 9999999,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 18,
+      "maxAge": 70,
+      "gender": "any",
+      "occupations": ["farmer", "salaried", "selfemployed", "unemployed", "other", "student"]
+    },
+    "documents": ["Aadhar Card", "Bank Account", "Mobile Number"],
+    "applyLink": "https://jansuraksha.gov.in"
+  },
+  {
+    "id": 24,
+    "name": "Free Coaching Scheme for SC/ST",
+    "category": "Education",
+    "description": "Free coaching for SC/ST students for competitive exams like UPSC, SSC, Banking",
+    "benefit": "Free coaching + ₹3000/month stipend",
+    "eligibility": {
+      "maxIncome": 800000,
+      "categories": ["SC", "ST"],
+      "minAge": 18,
+      "maxAge": 30,
+      "gender": "any",
+      "occupations": ["student", "unemployed"]
+    },
+    "documents": ["Aadhar Card", "Caste Certificate", "Income Certificate", "Graduation Certificate"],
+    "applyLink": "https://socialjustice.gov.in"
+  },
+  {
+    "id": 25,
+    "name": "National Means Cum Merit Scholarship",
+    "category": "Education",
+    "description": "Scholarship to prevent dropout of meritorious students at class 8th level",
+    "benefit": "₹12000 per year (₹1000/month)",
+    "eligibility": {
+      "maxIncome": 350000,
+      "categories": ["SC", "ST", "OBC", "General"],
+      "minAge": 13,
+      "maxAge": 18,
+      "gender": "any",
+      "occupations": ["student"]
+    },
+    "documents": ["Aadhar Card", "Income Certificate", "Class 7th Mark Sheet", "Bank Passbook"],
+    "applyLink": "https://scholarships.gov.in"
+  }
+]
