@@ -4,6 +4,11 @@
 ![AI Powered](https://img.shields.io/badge/AI-Groq%20%7C%20Gemini-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+## 🚀 Live Demo
+[👉 SchemeSaathi Live](https://scheme-saathi-chi.vercel.app)
+
+---
+
 SchemeSaathi is an AI-powered web application that helps Indian citizens discover government schemes they are eligible for — based on age, income, state, category, and occupation.
 
 ---
