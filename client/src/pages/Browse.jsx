@@ -12,7 +12,7 @@ function Browse() {
   const [loading, setLoading] = useState(true)
 
   useState(() => {
-    fetch('http://localhost:5000/api/schemes/all')
+    fetch('https://schemesaathi-k0of.onrender.com/api/schemes/all')
       .then(res => res.json())
       .then(data => {
         setSchemes(data)

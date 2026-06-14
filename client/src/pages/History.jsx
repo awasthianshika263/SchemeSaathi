@@ -7,7 +7,7 @@ function History() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/schemes/history')
+    fetch('https://schemesaathi-k0of.onrender.com/api/schemes/history')
       .then(res => res.json())
       .then(data => {
         setHistory(data)
